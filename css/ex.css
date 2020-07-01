@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: Cambria, "Nanum Gothic";
+	background-color: #B2CCDD;
+            margin: 0;
+            width: 1920px;
+}
+header {           
+	width: 1920px;
+	background-color: #E0E8F3;	
+}
+.logo {
+            color: black;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	padding-top: 70px;
+	font-size: 15px; 
+             width: 300px;  
+            float: right;
+}
+.main{
+         width: 300px;
+         float: left;
+         font-size: 35px; 
+         margin-left: 100px;
+         padding-top: 70px;
+}
+.big{
+          height: 120px;
+}
+.aw { 
+       width:1920px;
+       height:cover; 
+       margin:0px auto;
+       border-top: 1.5px solid black;
+       border-bottom: 1.5px solid black;   	
+       text-align: center;
+       padding-top: 15px;
+       padding-bottom: 15px;
+       font-size: 20px;
+       bt-align: center;
+}
+.bt {
+             display: inline-block;
+	width: 150px;
+	text-align: center;
+             padding: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.bt2 {
+	width: 300px;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+}
+.bt:hover {
+	color: #FFFFFF;
+	cursor: pointer;
+            text-decoration:none
+}
+.bt2:hover {
+	color: #FFFFFF;
+	cursor: pointer;
+            text-decoration:none
+}
+
+
+
+.a{
+            float: right;
+            width: 750px;
+            height: 650px;
+            margin-top: 40px;
+            margin-right: 30px;
+            padding: 15px;
+}
+.a1{      
+            float: right;
+            display: inline-block;
+	width: 610px;
+	height: 180px;
+            border-radius: 5px;
+            padding-left: 15%;
+            padding-top: 1%;
+            background-color: #E9F2FA;
+            margin-top:4%;
+}
+.button {
+	width: 150px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: auto;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	background-color: #B2CCDD;;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+             position: absolute;
+}
+.button:hover {
+	background-color: #6DC7D0;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.copyright {
+              clear: both;
+              width: 1920px;        
+	 text-align: center;
+	 padding-top: 20px;
+	 padding-bottom: 20px;
+	 background-color: #808FA4;
+	 color: #FFFFFF;
+	 text-transform: uppercase;
+	 letter-spacing: 2px;
+}
+footer{
+
+          width:1920px;
+          height: 70px;
+          clear: both;
+}
